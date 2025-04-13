@@ -18,12 +18,19 @@
 
 <body>
    <table>
+       <tr>
+           <th>タイトル</th>
+           <th>本文</th>
+          
+       </tr>
        
        @foreach($posts as $post)
-          
+          <tr>
+            <td>{{ $post->title }}</td>
+            <td>{{ $post->content}}</td>
+          </tr>
                
-               <h3>{{ $post->title }}</h3>
-               <p>{{ $post->content}}</p>
+               
                
                  
        @endforeach       
