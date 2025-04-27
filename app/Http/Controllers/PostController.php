@@ -41,7 +41,7 @@ class PostController extends Controller
         $post->save();
 
         // /postにリダイレクトさせる
-        return redirect('/posts/{post->id}');
+        return redirect('/posts');
 
 
     }
