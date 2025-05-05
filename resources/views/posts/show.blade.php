@@ -8,8 +8,8 @@
 <body>
     <table>
         <tr>
-            <th>ID</th>
-            <td>{{ $post->id }}</td>
+        <th>ID</th>
+        <td>{{ $post->id }}</td>
         </tr>
         <tr>
             <th>タイトル</th>
